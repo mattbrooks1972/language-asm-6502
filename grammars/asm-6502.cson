@@ -1,0 +1,11 @@
+'scopeName': 'source.asm-6502'
+'name': 'Asm6502'
+'fileTypes': [
+  'extension'
+]
+'patterns': [
+  {
+    'match': '^\\s*@@.*$'
+    'name': 'comment'
+  }
+]
