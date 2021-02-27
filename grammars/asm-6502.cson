@@ -64,5 +64,10 @@
     'comment': 'address'
     'match': '\\B([\$][A-Fa-f0-9]+)\\b'
     'name': 'constant.other.binary.asm-6502'
+  },
+  {
+    'comment': 'symbol'
+    'match': '\\b[A-Za-z][A-Za-z0-9]\\b'
+    'name': 'entity.tag.asm-6502'
   }
 ]
