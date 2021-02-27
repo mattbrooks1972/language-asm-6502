@@ -1,6 +1,6 @@
 {
   "name": "language-asm-6502",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom support for 6502 assembly language.",
   "keywords": [
     "language",
