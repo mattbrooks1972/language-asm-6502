@@ -1,3 +1,4 @@
 '.source.asm-6502':
   'editor':
     'commentStart': ';'
+    'commentEnd': '\n'
