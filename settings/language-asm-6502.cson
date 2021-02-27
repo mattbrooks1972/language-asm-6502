@@ -1,3 +1,3 @@
 '.source.asm-6502':
   'editor':
-    'commentStart': '@@ '
+    'commentStart': ';'
