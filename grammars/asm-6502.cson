@@ -10,5 +10,10 @@
     'comment': 'comment'
     'match': ';.*'
     'name': 'comment.line.semicolon'
+  },
+  {
+    'comment': 'register'
+    'match': '\\b([Aa]|[Xx]|[Yy]|[Pp][Cc]|[Ss][Pp]|[Ss][Rr])\\b'
+    'name': 'constant.character'
   }
 ]
