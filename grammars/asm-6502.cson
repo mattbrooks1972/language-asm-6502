@@ -12,6 +12,11 @@
     'name': 'comment.line.semicolon.asm-6502'
   },
   {
+    'comment': 'string'
+    'match': '\".+(\"\")*.*\"'
+    'name': 'string.quoted.single.asm-6502'
+  },
+  {
     'comment': 'opcode'
     'match': '''(?x)
         \\b
