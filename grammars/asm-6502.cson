@@ -20,5 +20,10 @@
     'comment': 'literal-hexadecimal'
     'match': '\\B([\#][\$][A-Fa-f0-9]+)\\b'
     'name': 'constant.number.hexadecimal.asm-6502'
+  },
+  {
+    'comment': 'literal-decimal'
+    'match': '\\B([\#][0-9]+)\\b'
+    'name': 'constant.number.decimal.asm-6502'
   }
 ]
