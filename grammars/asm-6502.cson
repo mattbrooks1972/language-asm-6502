@@ -25,5 +25,10 @@
     'comment': 'literal-decimal'
     'match': '\\B([\#][0-9]+)\\b'
     'name': 'constant.number.decimal.asm-6502'
+  },
+  {
+    'comment': 'literal-binary'
+    'match': '\\B([\#][\%][01]+)\\b'
+    'name': 'constant.number.binary.asm-6502'
   }
 ]
