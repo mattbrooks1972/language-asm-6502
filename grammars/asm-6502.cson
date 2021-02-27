@@ -9,16 +9,16 @@
   {
     'comment': 'comment'
     'match': ';.*'
-    'name': 'comment.line.semicolon'
+    'name': 'comment.line.semicolon.asm-6502'
   },
   {
     'comment': 'register'
     'match': '\\b([Aa]|[Xx]|[Yy]|[Pp][Cc]|[Ss][Pp]|[Ss][Rr])\\b'
-    'name': 'constant.character'
+    'name': 'constant.character.asn-6502'
   },
   {
     'comment': 'literal-hexadecimal'
     'match': '\\B([\#][\$][A-Fa-f0-9]+)\\b'
-    'name': 'constant.number'
+    'name': 'constant.number.hexadecimal.asm-6502'
   }
 ]
