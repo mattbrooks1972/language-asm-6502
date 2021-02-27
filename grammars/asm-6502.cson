@@ -17,6 +17,11 @@
     'name': 'string.quoted.single.asm-6502'
   },
   {
+    'comment': 'label'
+    'match': '\\b([A-Za-z][A-Za-z0-9]+\:)\\B'
+    'name': 'variable.other.asm-6502'
+  },
+  {
     'comment': 'opcode'
     'match': '''(?x)
         \\b
