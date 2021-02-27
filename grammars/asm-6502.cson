@@ -41,6 +41,15 @@
   'name': 'entity.name.function.asm-6502'
   },
   {
+    'comment': 'macro'
+    'match': '''(?x)
+        \\b
+        ([Dd][Ee][Ff][Ii][Nn][Ee])
+        \\b
+    '''
+    'name': 'keyword.operator.asm-6502'
+  },
+  {
     'comment': 'register'
     'match': '\\b([Aa]|[Xx]|[Yy]|[Pp][Cc]|[Ss][Pp]|[Ss][Rr])\\b'
     'name': 'constant.character.asn-6502'
