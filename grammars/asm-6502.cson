@@ -30,5 +30,10 @@
     'comment': 'literal-binary'
     'match': '\\B([\#][\%][01]+)\\b'
     'name': 'constant.number.binary.asm-6502'
+  },
+  {
+    'comment': 'address'
+    'match': '\\B([\$][A-Fa-f0-9]+)\\b'
+    'name': 'constant.other.binary.asm-6502'
   }
 ]
