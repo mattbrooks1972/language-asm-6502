@@ -1,7 +1,9 @@
 'scopeName': 'source.asm-6502'
 'name': '6502 Assembly'
 'fileTypes': [
-  'extension'
+  '6502'
+  'S6502'
+  'asm6502'
 ]
 'patterns': [
   {
