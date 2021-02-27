@@ -13,7 +13,7 @@
   },
   {
     'comment': 'string'
-    'match': '\".+(\"\")*.*\"'
+    'match': '[\#]{0,1}\".+(\"\")*.*\"'
     'name': 'string.quoted.single.asm-6502'
   },
   {
