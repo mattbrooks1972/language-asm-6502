@@ -15,5 +15,10 @@
     'comment': 'register'
     'match': '\\b([Aa]|[Xx]|[Yy]|[Pp][Cc]|[Ss][Pp]|[Ss][Rr])\\b'
     'name': 'constant.character'
+  },
+  {
+    'comment': 'literal-hexadecimal'
+    'match': '\\B([\#][\$][A-Fa-f0-9]+)\\b'
+    'name': 'constant.number'
   }
 ]
