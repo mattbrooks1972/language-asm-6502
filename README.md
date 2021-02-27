@@ -1,3 +1,3 @@
-# Asm6502 language package
+# 6502 Assembly Language Package #
 
-A short description of your language package.
+An Atom grammar to support the 6502 assembly language.
