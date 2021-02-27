@@ -14,7 +14,7 @@
   {
     'comment': 'string'
     'match': '[\#]{0,1}\".+(\"\")*.*\"'
-    'name': 'string.quoted.single.asm-6502'
+    'name': 'string.quoted.double.asm-6502'
   },
   {
     'comment': 'label'
