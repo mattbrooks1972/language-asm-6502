@@ -4,7 +4,9 @@
   "description": "Atom support for 6502 assembly language.",
   "keywords": [
     "language",
-    "grammar"
+    "grammar",
+    "assembly",
+    "6502"
   ],
   "repository": "https://github.com/mattbrooks1972/language-asm-6502",
   "license": "MIT",
