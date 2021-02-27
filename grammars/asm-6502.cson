@@ -12,6 +12,25 @@
     'name': 'comment.line.semicolon.asm-6502'
   },
   {
+    'comment': 'opcode'
+    'match': '''(?x)
+        \\b
+        ([Aa][Dd][Cc]|[Aa][Nn][Dd]|[Aa][Ss][Ll]|[Bb][Cc][Cc]|[Bb][Cc][Ss]
+        |[Bb][Ee][Qq]|[Bb][Ii][Tt]|[Bb][Mm][Ii]|[Bb][Nn][Ee]|[Bb][Pp][Ll]
+        |[Bb][Rr][Kk]|[Bb][Vv][Cc]|[Bb][Vv][Ss]|[Cc][Ll][Cc]|[Cc][Ll][Dd]
+        |[Cc][Ll][Ii]|[Cc][Ll][Vv]|[Cc][Mm][Pp]|[Cc][Pp][Xx]|[Cc][Pp][Yy]
+        |[Dd][Ee][Cc]|[Dd][Ee][Xx]|[Dd][Ee][Yy]|[Ee][Oo][Rr]|[Ii][Nn][Cc]
+        |[Ii][Nn][Xx]|[Ii][Nn][Yy]|[Jj][Mm][Pp]|[Jj][Ss][Rr]|[Ll][Dd][Aa]
+        |[Ll][Dd][Xx]|[Ll][Dd][Yy]|[Ll][Ss][Rr]|[Nn][Oo][Pp]|[Oo][Rr][Aa]
+        |[Pp][Hh][Aa]|[Pp][Ll][Aa]|[Pp][Ll][Pp]|[Rr][Oo][Ll]|[Rr][Oo][Rr]
+        |[Rr][Tt][Ii]|[Rr][Tt][Ss]|[Ss][Bb][Cc]|[Ss][Ee][Cc]|[Ss][Ee][Dd]
+        |[Ss][Ee][Ii]|[Ss][Tt][Aa]|[Ss][Tt][Xx]|[Ss][Tt][Yy]|[Tt][Aa][Xx]
+        |[Tt][Aa][Yy]|[Tt][Ss][Xx]|[Tt][Xx][Aa]|[Tt][Xx][Ss]|[Tt][Yy][Aa])
+        \\b
+    '''
+  'name': 'entity.name.function.asm-6502'
+  },
+  {
     'comment': 'register'
     'match': '\\b([Aa]|[Xx]|[Yy]|[Pp][Cc]|[Ss][Pp]|[Ss][Rr])\\b'
     'name': 'constant.character.asn-6502'
