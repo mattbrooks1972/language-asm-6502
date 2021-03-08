@@ -9,17 +9,17 @@
   {
     'comment': 'comment'
     'match': ';.*'
-    'name': 'comment.line.semicolon.asm-6502'
+    'name': 'comment.line.semicolon'
   },
   {
     'comment': 'string'
     'match': '[\#]{0,1}\".+(\"\")*.*\"'
-    'name': 'string.quoted.double.asm-6502'
+    'name': 'string.quoted.double'
   },
   {
     'comment': 'label'
     'match': '\\b([A-Za-z][A-Za-z0-9]+\:)\\B'
-    'name': 'variable.other.asm-6502'
+    'name': 'variable.other'
   },
   {
     'comment': 'opcode'
@@ -38,7 +38,7 @@
         |[Tt][Aa][Yy]|[Tt][Ss][Xx]|[Tt][Xx][Aa]|[Tt][Xx][Ss]|[Tt][Yy][Aa])
         \\b
     '''
-  'name': 'entity.name.function.asm-6502'
+  'name': 'entity.name.function'
   },
   {
     'comment': 'macro'
@@ -47,36 +47,36 @@
         ([Dd][Ee][Ff][Ii][Nn][Ee])
         \\b
     '''
-    'name': 'keyword.operator.asm-6502'
+    'name': 'keyword.operator'
   },
   {
     'comment': 'register'
     'match': '\\b([Aa]|[Xx]|[Yy]|[Pp][Cc]|[Ss][Pp]|[Ss][Rr])\\b'
-    'name': 'constant.character.asn-6502'
+    'name': 'constant.character'
   },
   {
     'comment': 'literal-hexadecimal'
     'match': '\\B([\#][\$][A-Fa-f0-9]+)\\b'
-    'name': 'constant.number.hexadecimal.asm-6502'
+    'name': 'constant.number.hexadecimal'
   },
   {
     'comment': 'literal-decimal'
     'match': '\\B([\#][0-9]+)\\b'
-    'name': 'constant.number.decimal.asm-6502'
+    'name': 'constant.number.decimal'
   },
   {
     'comment': 'literal-binary'
     'match': '\\B([\#][\%][01]+)\\b'
-    'name': 'constant.number.binary.asm-6502'
+    'name': 'constant.number.binary'
   },
   {
     'comment': 'address'
     'match': '\\B([\$][A-Fa-f0-9]+)\\b'
-    'name': 'constant.other.binary.asm-6502'
+    'name': 'constant.other.binary'
   },
   {
     'comment': 'symbol'
     'match': '\\b[A-Za-z][A-Za-z0-9]\\b'
-    'name': 'entity.tag.asm-6502'
+    'name': 'entity.tag'
   }
 ]
